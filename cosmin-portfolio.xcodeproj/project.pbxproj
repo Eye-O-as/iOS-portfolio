@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19A0D742CE7618700A5BABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D732CE7618700A5BABE /* AppDelegate.swift */; };
+		C19A0D762CE7618700A5BABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D752CE7618700A5BABE /* SceneDelegate.swift */; };
+		C19A0D782CE7618700A5BABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D772CE7618700A5BABE /* ViewController.swift */; };
+		C19A0D7B2CE7618700A5BABE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C19A0D7A2CE7618700A5BABE /* Base */; };
+		C19A0D7E2CE7618700A5BABE /* cosmin_portfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D7C2CE7618700A5BABE /* cosmin_portfolio.xcdatamodeld */; };
+		C19A0D802CE7618800A5BABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19A0D7F2CE7618800A5BABE /* Assets.xcassets */; };
+		C19A0D832CE7618800A5BABE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C19A0D822CE7618800A5BABE /* Base */; };
+		C19A0D902CE7670900A5BABE /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D8F2CE7670900A5BABE /* RootCoordinator.swift */; };
+		C19A0D942CE7678900A5BABE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D932CE7678900A5BABE /* SplashView.swift */; };
+		C19A0D972CE7685F00A5BABE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C19A0D962CE7685F00A5BABE /* Lottie */; };
+		C19A0D9D2CE768F500A5BABE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A0D9C2CE768F500A5BABE /* LottieView.swift */; };
+		C19A0D9F2CE7695900A5BABE /* LoadingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = C19A0D9E2CE7695900A5BABE /* LoadingAnimation.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C19A0D702CE7618700A5BABE /* cosmin-portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cosmin-portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A0D732CE7618700A5BABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19A0D752CE7618700A5BABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C19A0D772CE7618700A5BABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C19A0D7A2CE7618700A5BABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19A0D7D2CE7618700A5BABE /* cosmin_portfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cosmin_portfolio.xcdatamodel; sourceTree = "<group>"; };
+		C19A0D7F2CE7618800A5BABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19A0D822CE7618800A5BABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19A0D842CE7618800A5BABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19A0D8F2CE7670900A5BABE /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		C19A0D932CE7678900A5BABE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		C19A0D9C2CE768F500A5BABE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		C19A0D9E2CE7695900A5BABE /* LoadingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoadingAnimation.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19A0D6D2CE7618700A5BABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A0D972CE7685F00A5BABE /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19A0D672CE7618700A5BABE = {
+			isa = PBXGroup;
+			children = (
+				C19A0D722CE7618700A5BABE /* cosmin-portfolio */,
+				C19A0D712CE7618700A5BABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19A0D712CE7618700A5BABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D702CE7618700A5BABE /* cosmin-portfolio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19A0D722CE7618700A5BABE /* cosmin-portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D732CE7618700A5BABE /* AppDelegate.swift */,
+				C19A0D752CE7618700A5BABE /* SceneDelegate.swift */,
+				C19A0D772CE7618700A5BABE /* ViewController.swift */,
+				C19A0D792CE7618700A5BABE /* Main.storyboard */,
+				C19A0D7F2CE7618800A5BABE /* Assets.xcassets */,
+				C19A0D812CE7618800A5BABE /* LaunchScreen.storyboard */,
+				C19A0D842CE7618800A5BABE /* Info.plist */,
+				C19A0D7C2CE7618700A5BABE /* cosmin_portfolio.xcdatamodeld */,
+				C19A0D8A2CE7647E00A5BABE /* Modules */,
+				C19A0D8B2CE7649D00A5BABE /* Services */,
+				C19A0D8C2CE764A300A5BABE /* Resources */,
+			);
+			path = "cosmin-portfolio";
+			sourceTree = "<group>";
+		};
+		C19A0D8A2CE7647E00A5BABE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D982CE768B000A5BABE /* Core */,
+				C19A0D8F2CE7670900A5BABE /* RootCoordinator.swift */,
+				C19A0D922CE7677200A5BABE /* Splash */,
+				C19A0D912CE7676800A5BABE /* Onboarding */,
+				C19A0D992CE768BC00A5BABE /* Utils */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C19A0D8B2CE7649D00A5BABE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C19A0D8C2CE764A300A5BABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D8E2CE764D500A5BABE /* Fonts */,
+				C19A0D8D2CE764CD00A5BABE /* Animations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C19A0D8D2CE764CD00A5BABE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D9E2CE7695900A5BABE /* LoadingAnimation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C19A0D8E2CE764D500A5BABE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C19A0D912CE7676800A5BABE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C19A0D922CE7677200A5BABE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D932CE7678900A5BABE /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C19A0D982CE768B000A5BABE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C19A0D992CE768BC00A5BABE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D9A2CE768CF00A5BABE /* ReusableUI */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C19A0D9A2CE768CF00A5BABE /* ReusableUI */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D9B2CE768E100A5BABE /* LottieViews */,
+			);
+			path = ReusableUI;
+			sourceTree = "<group>";
+		};
+		C19A0D9B2CE768E100A5BABE /* LottieViews */ = {
+			isa = PBXGroup;
+			children = (
+				C19A0D9C2CE768F500A5BABE /* LottieView.swift */,
+			);
+			path = LottieViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19A0D6F2CE7618700A5BABE /* cosmin-portfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A0D872CE7618800A5BABE /* Build configuration list for PBXNativeTarget "cosmin-portfolio" */;
+			buildPhases = (
+				C19A0D6C2CE7618700A5BABE /* Sources */,
+				C19A0D6D2CE7618700A5BABE /* Frameworks */,
+				C19A0D6E2CE7618700A5BABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cosmin-portfolio";
+			packageProductDependencies = (
+				C19A0D962CE7685F00A5BABE /* Lottie */,
+			);
+			productName = "cosmin-portfolio";
+			productReference = C19A0D702CE7618700A5BABE /* cosmin-portfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19A0D682CE7618700A5BABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C19A0D6F2CE7618700A5BABE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C19A0D6B2CE7618700A5BABE /* Build configuration list for PBXProject "cosmin-portfolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19A0D672CE7618700A5BABE;
+			packageReferences = (
+				C19A0D952CE7685F00A5BABE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = C19A0D712CE7618700A5BABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19A0D6F2CE7618700A5BABE /* cosmin-portfolio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19A0D6E2CE7618700A5BABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A0D802CE7618800A5BABE /* Assets.xcassets in Resources */,
+				C19A0D832CE7618800A5BABE /* Base in Resources */,
+				C19A0D7B2CE7618700A5BABE /* Base in Resources */,
+				C19A0D9F2CE7695900A5BABE /* LoadingAnimation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19A0D6C2CE7618700A5BABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A0D9D2CE768F500A5BABE /* LottieView.swift in Sources */,
+				C19A0D782CE7618700A5BABE /* ViewController.swift in Sources */,
+				C19A0D742CE7618700A5BABE /* AppDelegate.swift in Sources */,
+				C19A0D902CE7670900A5BABE /* RootCoordinator.swift in Sources */,
+				C19A0D762CE7618700A5BABE /* SceneDelegate.swift in Sources */,
+				C19A0D7E2CE7618700A5BABE /* cosmin_portfolio.xcdatamodeld in Sources */,
+				C19A0D942CE7678900A5BABE /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C19A0D792CE7618700A5BABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A0D7A2CE7618700A5BABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19A0D812CE7618800A5BABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A0D822CE7618800A5BABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19A0D852CE7618800A5BABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19A0D862CE7618800A5BABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19A0D882CE7618800A5BABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cosmin-portfolio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.cosmin-portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19A0D892CE7618800A5BABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cosmin-portfolio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.cosmin-portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19A0D6B2CE7618700A5BABE /* Build configuration list for PBXProject "cosmin-portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A0D852CE7618800A5BABE /* Debug */,
+				C19A0D862CE7618800A5BABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A0D872CE7618800A5BABE /* Build configuration list for PBXNativeTarget "cosmin-portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A0D882CE7618800A5BABE /* Debug */,
+				C19A0D892CE7618800A5BABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C19A0D952CE7685F00A5BABE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C19A0D962CE7685F00A5BABE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19A0D952CE7685F00A5BABE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C19A0D7C2CE7618700A5BABE /* cosmin_portfolio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C19A0D7D2CE7618700A5BABE /* cosmin_portfolio.xcdatamodel */,
+			);
+			currentVersion = C19A0D7D2CE7618700A5BABE /* cosmin_portfolio.xcdatamodel */;
+			path = cosmin_portfolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C19A0D682CE7618700A5BABE /* Project object */;
+}
